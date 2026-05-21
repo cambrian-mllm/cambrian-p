@@ -1,0 +1,8 @@
+group: tomato
+task:
+  - tomato_count
+  - tomato_direction
+  - tomato_rotation
+  - tomato_shape_trend
+  - tomato_velocity_frequency
+  - tomato_visual_cues

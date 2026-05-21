@@ -1,0 +1,97 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+# *.json
+# *.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+# Editor
+.idea
+*.swp
+.vscode
+.wandb_recreated_runs
+
+# Other
+.DS_Store
+wandb
+output
+llavavid
+
+checkpoints
+project_checkpoints
+debug_checkpoints
+playground/data
+playground/cc3m_llava34b_cap
+ckpts*
+
+.ipynb_checkpoints
+chunyl_scripts
+*.ipynb
+data/*
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+notebooks/
+logs
+scripts/dist_*
+logs/
+submissions/
+cn_scripts/
+internal_project_checkpoints/
+work_dirs
+scripts/i18n/*
+playground/.nfs028b000000010add00000001
+HIP
+playground/.nfs028b0000017bff2c00000012
+scripts/qwen
+scripts/vicuna
+scripts/mistral
+scripts/baseline_rep
+scripts/cn_boli01_hl
+scripts/cn_boli01_lf
+scripts/cn_lf
+scripts/cn_lq
+scripts/cn_yg
+scripts/cn_yg_hao
+scripts/eva_encoder
+scripts/i18n
+scripts/i18n_higher_res
+scripts/multi-images
+scratchpad
+build/
+playground/*.json
+mlx_configs/
+data_processing/
+# demo/
+
+eval_bot_logs/*
+!eval_bot_logs/processed_vsibench
+eval_results/*
+# Wandb history files (synced via recreate, then cleaned up)
+wandb/run-*/files/wandb_history.json
+wandb/run-*/files/wandb-metadata.json
+wandb/run-*/files/wandb-summary.json
+wandb/run-*/files/config.yaml
+
+cambrianp/eval/relpose/eval_metrics_rec/
+stage2_merged_results.json
+
+# Cambrian-P viewer: not part of the public release (kept local-only for now).
+doc/viewer/
+
+# Internal release tooling — NAS-path-heavy, not for the public repo.
+scripts/release/
+
+# Local-only scratch / generated artifacts
+.gradio/
+doc/Untitled
+lmms-eval/logs_qai*/

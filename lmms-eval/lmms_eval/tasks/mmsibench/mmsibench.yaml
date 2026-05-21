@@ -1,0 +1,40 @@
+# MMSI-Bench evaluation task
+# Multi-view Multi-modal Spatial Intelligence Benchmark
+# Dataset: RunsenXu/MMSI-Bench
+
+dataset_path: RunsenXu/MMSI-Bench
+task: mmsi_bench
+dataset_kwargs:
+  token: True
+test_split: test
+output_type: generate_until
+doc_to_visual: !function utils.msr_doc_to_visual
+doc_to_text: !function utils.msr_doc_to_text
+doc_to_target: "answer"
+process_results: !function utils.msr_process_results
+
+lmms_eval_specific_kwargs:
+  default:
+    pre_prompt: ""
+    post_prompt: "\nAnswer with the option's letter from the given choices directly. Enclose the option's letter within ``."
+  gemini_api:
+    pre_prompt: ""
+    post_prompt: "\nAnswer with the option's letter from the given choices directly."
+  gpt4v:
+    pre_prompt: ""
+    post_prompt: "\nAnswer with the option's letter from the given choices directly."
+
+generation_kwargs:
+  max_new_tokens: 2048
+  temperature: 0
+  top_p: 1.0
+  num_beams: 1
+  do_sample: false
+
+metric_list:
+  - metric: mmsi_score
+    aggregation: !function utils.mmsi_aggregate_results
+    higher_is_better: true
+
+metadata:
+  - version: 0.0

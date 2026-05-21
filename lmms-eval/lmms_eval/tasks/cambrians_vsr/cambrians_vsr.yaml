@@ -1,0 +1,7 @@
+group: cambrians_vsr
+task:
+  - cambrians_vsr_10mins
+  - cambrians_vsr_30mins
+  - cambrians_vsr_60mins
+  - cambrians_vsr_120mins
+  - cambrians_vsr_240mins
