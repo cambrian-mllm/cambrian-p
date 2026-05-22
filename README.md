@@ -6,8 +6,8 @@
     <img src="figs/teaser.png" alt="Cambrian-P" width="800" height="auto">
 </p>
 
-<a href="#citation" target="_blank">
-    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-Cambrian--P-red?logo=arxiv" height="25" />
+<a href="https://arxiv.org/abs/2605.22819" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2605.22819-red?logo=arxiv" height="25" />
 </a>
 <a href="https://cambrian-mllm.github.io/cambrian-p/" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/🌎_Website-cambrian--mllm.github.io-blue" height="25" />
@@ -161,10 +161,10 @@ If you find our work useful for your research, please consider citing:
 
 ```bibtex
 @article{yang2026cambrianp,
-  title  = {Cambrian-P: Pose-Grounded Video Understanding},
-  author = {Yang, Jihan and Zhao, Zifan and Pan, Xichen and Yang, Shusheng and Zhang, Junyi and Kang, Bingyi and Xu, Hu and Xie, Saining},
-  year   = {2026},
-  note   = {TBD}
+  title   = {Cambrian-P: Pose-Grounded Video Understanding},
+  author  = {Yang, Jihan and Zhao, Zifan and Pan, Xichen and Yang, Shusheng and Zhang, Junyi and Kang, Bingyi and Xu, Hu and Xie, Saining},
+  journal = {arXiv preprint arXiv:2605.22819},
+  year    = {2026},
 }
 ```
 
