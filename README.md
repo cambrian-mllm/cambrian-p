@@ -15,6 +15,9 @@
 <a href="https://huggingface.co/collections/nyu-visionx/cambrian-p-models" target="_blank">
     <img alt="HF Models: Cambrian-P" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Models-Cambrian--P-ffc107?color=ffc107&logoColor=white" height="25" />
 </a>
+<a href="https://huggingface.co/datasets/nyu-visionx/Cambrian-P-Data" target="_blank">
+    <img alt="HF Data: Cambrian-P-Data" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Data-Cambrian--P--Data-3cb371?color=3cb371&logoColor=white" height="25" />
+</a>
 
 <div style="font-family: charter;">
     <a href="https://jihanyang.github.io/" target="_blank">Jihan Yang</a><sup>1*</sup>,
@@ -42,7 +45,7 @@
 
 ## Release
 
-- 🔥 **Cambrian-P** is out. Models on HuggingFace ([`nyu-visionx/cambrian-p-models`](https://huggingface.co/collections/nyu-visionx/cambrian-p-models)), the [pose-annotation dataset](https://huggingface.co/datasets/nyu-visionx/Cambrian-P-Data), full training code, and the VSI-Bench + streaming pose-estimation eval harnesses. Paper on arXiv: *TBA*.
+- 🔥 **Cambrian-P** is out — [paper](https://arxiv.org/abs/2605.22819), [model checkpoints](https://huggingface.co/collections/nyu-visionx/cambrian-p-models), the annotated pose [Cambrian-P-Data](https://huggingface.co/datasets/nyu-visionx/Cambrian-P-Data), and full training/eval code are all released.
 
 ## Contents
 
