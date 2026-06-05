@@ -131,6 +131,7 @@ torchrun \
     --rec_loss_weight 0.2 \
     --rec_camera_loss_weight 5.0 \
     --rec_camera_loss_type l1 \
+    --use_point_masks False \
     --rec_depth_loss_weight 1.0 \
     --rec_depth_gradient_loss_fn grad \
     --rec_depth_valid_range 0.98 \
