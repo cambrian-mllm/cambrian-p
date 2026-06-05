@@ -1112,7 +1112,7 @@ def load_vipe_cambrians_scene(
         "point_masks": torch.from_numpy(valid_mask),  # [N, H, W] bool
         
         # Normalization control
-        "scale_by_points": torch.tensor(True),  # Non-metric
+        "scale_by_points": torch.tensor(has_depth),  # Non-metric; point-based scaling only valid when depth exists (pose-only release => False)
         "is_metric_scale": torch.tensor(False, dtype=torch.bool),
         
         # Size info
