@@ -28,6 +28,7 @@
     <br>
     <a href="https://bingykang.github.io/" target="_blank">Bingyi Kang</a><sup>1</sup>,
     <a href="https://howardhsu.github.io/" target="_blank">Hu Xu</a><sup>3</sup>,
+    <a href="https://swdanielli.github.io/" target="_blank">Shang-Wen Li</a><sup>3</sup>,
     <a href="https://www.sainingxie.com/" target="_blank">Saining Xie</a><sup>1</sup>
 </div>
 
@@ -163,11 +164,14 @@ Please refer to [`doc/evaluation.md`](doc/evaluation.md).
 If you find our work useful for your research, please consider citing:
 
 ```bibtex
-@article{yang2026cambrianp,
-  title   = {Cambrian-P: Pose-Grounded Video Understanding},
-  author  = {Yang, Jihan and Zhao, Zifan and Pan, Xichen and Yang, Shusheng and Zhang, Junyi and Kang, Bingyi and Xu, Hu and Xie, Saining},
-  journal = {arXiv preprint arXiv:2605.22819},
-  year    = {2026},
+@misc{yang2026cambrianpposegroundedvideounderstanding,
+      title={Cambrian-P: Pose-Grounded Video Understanding}, 
+      author={Jihan Yang and Zifan Zhao and Xichen Pan and Shusheng Yang and Junyi Zhang and Bingyi Kang and Hu Xu and Shang-Wen Li and Saining Xie},
+      year={2026},
+      eprint={2605.22819},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.22819}, 
 }
 ```
 
